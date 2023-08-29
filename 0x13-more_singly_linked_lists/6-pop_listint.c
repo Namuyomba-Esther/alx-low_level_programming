@@ -18,7 +18,7 @@ int pop_listint(listint_t **head)
 
 	/* if there is no list */
 	if (head == NULL || *head == NULL)
-				return (0);
+		return (0);
 	temp_variable = *head; /* stores the pointer to temp_variable head */
 	/* access the field n of temp_var and assign it to data */
 	data = temp_variable->n;
